@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chatset="UFT-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>STUDENT RECORDS</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h2
+            style="color: white;text-align: center;padding: 15px;"></h2>
+        </header>
+            <div class="record-box">
+                <input type="text" id="studentName" placeholder="studentName">
+                 <input type="text" id="studentClass" placeholder="studentClass">
+                 <button onclick="ADDSTUDENT()">Add Student</button>
+                 <button onclick="window.print()"> Print Student List</button>
+                 <input type="text" id="searchBox"
+                 placeholder="search Student..."
+                 onkeyup="searchStudent()">
+                 <table id="studentTable">
+                    <tr>
+                        <th>NAME</th>
+                        <th>CLASS</th>
+                        <th>ACTION</th>
+                    </tr>
+                 </table>
+            </div>
+            <script src="js/script.js"></script>
+    </body>
+</html>
+            

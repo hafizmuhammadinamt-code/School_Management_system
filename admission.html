@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chatset="UFT-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>ONLINE ADMISSION</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h2>
+                    SCHOOL MANAGEMENT SYSTEM</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="teacher.html">Teacher</a></li>
+                    <li><a href="students.html">Students</a></li>
+                    <li><a href="admission.html">Admission</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <section class="from-section">
+            <h1>ONLINE ADMISSION FORM</h1>
+            <form id="ADMISSIONFORM">
+                <input type="text" id="name"
+                placeholder="Student Name" required>
+                <input type="text" id="father"
+                placeholder="father Name" required>
+                <input type="text" id="email"
+                placeholder="email address" required>
+                <input type="tel" id="phone" placeholder="phone number" required>
+                <select id="class" required>
+                    <option value="">select class</option>
+                    <option 6th></option>
+                    <option 7th></option>
+                    <option 8th></option>
+                    <option 9th></option>
+                    <option 10th></option>
+                </select>
+                  <textarea id="address" placeholder="Address" rows="5 required"></textarea>
+                <button type="SUBMIT">Submit Admission</button>
+            </form>
+        </section>
+        <script src="js/script.js"></script>
+    </body>
+</html>
